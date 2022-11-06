@@ -1,0 +1,102 @@
+
+.form{
+  height: 100vh;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 20px;
+}
+.form input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form button{
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #19431b;
+}
+
+.dashboard-body{
+  width: 100vw;
+  height: 100vh;
+  background: #fafafa;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-body .body{
+  height: 100%;
+  align-items: center;
+  text-allign: center;
+  
+}
+.dashboard-body .body h1{
+  font-size: 20px;
+  text-align: center;
+}
+.dashboard-body .nav{
+  padding: 4px;
+  align-items: center;
+  text-allign: center;
+  display: flex;
+  flex-direction: row;
+}
+.dashboard-body .nav p {
+  margin-left: 12px;
+  font-size: large;
+  color: #129900
+}
+
+
+
+
+
+
+/* style for desktop */
+@media screen and (min-width: 1200px) {
+  .form{
+  height: 100vh;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 140px;
+}
+
+.dashboard-body{
+  display: flex;
+  flex-direction: row;
+}
+.dashboard-body .body{
+  width: 80%;
+  height: 100%;
+  align-items: center;
+  text-allign: center;
+  
+}
+.dashboard-body .nav{
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  text-allign: center;
+  background: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-body .nav p {
+  color: white;
+   margin-top: 40px;
+}
+}
