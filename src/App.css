@@ -1,4 +1,11 @@
 
+.nav-links{
+  width: 30%;
+  display: flex;
+  justify-content: last baseline;
+  align-items: center;
+  list-style: none;
+}
 .form{
   height: 100vh;
   border-radius: 5px;
@@ -16,7 +23,7 @@
 }
 .form button{
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #8d5cd6;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -26,77 +33,40 @@
 }
 
 .form button:hover {
-  background-color: #19431b;
+  background-color: #3e37a0;
+
 }
 
-.dashboard-body{
-  width: 100vw;
-  height: 100vh;
-  background: #fafafa;
-  color: black;
+.nav{
+  background-color: #c88819;
+  color:white;
   display: flex;
-  flex-direction: column;
-}
-.dashboard-body .body{
-  height: 100%;
-  align-items: center;
-  text-allign: center;
-  
-}
-.dashboard-body .body h1{
-  font-size: 20px;
-  text-align: center;
-}
-.dashboard-body .nav{
-  padding: 4px;
-  align-items: center;
-  text-allign: center;
-  display: flex;
-  flex-direction: row;
-}
-.dashboard-body .nav p {
-  margin-left: 12px;
-  font-size: large;
-  color: #129900
+  justify-content: space-between;
+  padding: 0 10px;
 }
 
 
-
-
-
-
-/* style for desktop */
-@media screen and (min-width: 1200px) {
-  .form{
-  height: 100vh;
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px double steelblue;
+  padding: 30px;
   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px 140px;
 }
 
-.dashboard-body{
-  display: flex;
-  flex-direction: row;
-}
-.dashboard-body .body{
-  width: 80%;
-  height: 100%;
-  align-items: center;
-  text-allign: center;
-  
-}
-.dashboard-body .nav{
-  width: 20%;
-  height: 100%;
-  align-items: center;
-  text-allign: center;
-  background: black;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
-.dashboard-body .nav p {
-  color: white;
-   margin-top: 40px;
-}
+
+.btn {
+  display: inline-block;
+  background: #8d5cd6;
+  color: #fff;
+  border: none;
+  padding: 4px 14px;
+  margin: 0 46px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
 }

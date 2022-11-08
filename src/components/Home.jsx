@@ -1,13 +1,18 @@
 import React from 'react'
 import "../App.css"
+import Nav from './Nav'
 
 function Home() {
   return (
     
     <div>
       
+     <Nav/>
+       <div className="container">
+              <h1>HOME SWEET HOME</h1>
 
-<hi>HOME SWEET HOME</hi>
+       </div>
+
     </div>
 
     )
